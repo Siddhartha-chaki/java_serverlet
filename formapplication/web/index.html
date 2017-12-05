@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <div class="container-fluid align-content-center">
+            
+            <form action="details" method="post" class="form-group">
+                Name  : <input type="text" name="nm" class="form-control"/><br/>
+            Age   : <input type="text" name="ag" class="form-control"/><br/>
+            Gender:<br/> <input type="radio" name="gen" value="M" checked="checked" class="form-control"/>Male<br/>
+                    <input type="radio" name="gen" value="F" class="form-control"/>Female<br/>
+            HSC        %: <input type="number" name="hsc" value="0" class="form-control"/><br/>
+            SSC        %: <input type="number" name="scc" value="0" class="form-control"/><br/>
+            FY SY Avg  %: <input type="number" name="fsa" value="0" class="form-control"/><br/>
+            Technologies Known<br/>
+            <select name="tec" multiple class="form-control">                
+                <option value="Java">JAVA</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+            </select><br/>
+            Area of intrest
+            <input type="checkbox" name="ch1" value="ss" class="form-control">Server Side<br/>
+            <input type="checkbox" name="ch2" value="fe" class="form-control">Front End<br/>
+            <input type="checkbox" name="ch3" value="l" class="form-control">Business Logics<br/>
+            <input type="checkbox" name="ch4" value="n" class="form-control">Network Dev <br/>
+            <input type="submit" value="Submit Details" class="form-control btn-primary"/><br/>
+            
+        </form>
+        
+        </div>
+    </body>
+    
+</html>
